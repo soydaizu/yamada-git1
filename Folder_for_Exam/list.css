@@ -1,0 +1,17 @@
+ul {
+  padding: 0;
+  margin: 0; /* outer space size sets zero */
+  list-style: none /* remove icons on the left side */
+}
+ul li {
+  width: 70px;
+  display: inline-block; /* Laying horizontally */
+  text-align: center; /* put the text in the middle */
+}
+ul li a {
+  background-color: #5cb85c;
+  color: #fff;
+  padding: 5px;
+  display: block; /* Extend elements to set these background color */
+  text-decoration: none; /* remove the underline */
+}

@@ -1,0 +1,7 @@
+CREATE TABLE yamadaP.family (
+    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    name VARCHAR(100),
+    age INT(10),
+    hoby varchar(100),
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

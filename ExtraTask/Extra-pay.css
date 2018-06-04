@@ -1,0 +1,182 @@
+header {
+    width: auto;
+    margin: 0 0;
+}
+
+header h1 {
+    margin: 0px 0 0px;
+}
+
+#global_navi {
+    margin: auto;
+    text-align: center;
+}
+
+#global_navi ul {
+    font-size: 0;  /* 半角スペース削除 */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#global_navi ul li {
+    font-size: 14px;  /* フォントサイズ復活 */
+    display: inline-block;
+    width: 163px;
+    margin-right: 1px;
+    text-align: center;
+}
+
+#global_navi ul li a {
+    display: block;  /* これは必要*/
+    border: 1px solid #956840;
+    border-radius: 2px;
+    padding: 10px 16px;
+    background-color: #FFFFFF;
+    color: #333;
+    text-decoration: none; /* リンクはデフォルトで下線あり */
+    transition: background-color 0.2s linear;
+}
+
+#global_navi ul li.current a {
+    background-color: #F5C9C6;
+    color: #b94047;
+    font-weight: bold;
+}
+
+#global_navi ul li a:hover {
+    background-color: #fa9786;
+}
+li{
+    display: inline-block;
+    text-align: center;
+    /*margin: auto;*/
+}
+#main{
+    text-align: center;
+}
+#wrapper{
+     margin: auto;
+     text-align: center;
+}
+
+#easiness {
+    position: relative;
+    /*margin: 2em 0 2em 40px;*/
+    margin-right: 40px;
+    margin-bottom:20px;
+    padding: 8px 15px;
+    border-radius: 30px;
+    border: 2px solid #b94047;
+    
+}
+#easiness :before{font-family: FontAwesome;
+    content: "\f111";
+    position: absolute;
+    font-size: 15px;
+    right: -40px;
+    bottom: 0;
+    color: #b94047;
+}
+#easiness:after{
+    font-family: FontAwesome;
+    content: "\f111";
+    position: absolute;
+    font-size: 23px;
+    right: -23px;
+    bottom: 0;
+    color: #b94047;
+}
+
+#easiness p {
+    margin: 0; 
+    padding: 0;
+}
+    
+
+#easiness h1{
+    color: #b94047;
+    font-size: 30px;
+        font-family: メイリオ;
+}
+
+#point {
+    position: relative;
+    /*margin: 2em 0 2em 40px;*/
+    margin-left: 40px;
+    margin-bottom:20px;
+    padding: 8px 15px;
+    border-radius: 30px;
+    border: 2px solid #b94047;
+}
+#point:before{font-family: FontAwesome;
+    content: "\f111";
+    position: absolute;
+    font-size: 15px;
+    left: -40px;
+    bottom: 0;
+    color: #b94047;
+}
+#point:after{
+    font-family: FontAwesome;
+    content: "\f111";
+    position: absolute;
+    font-size: 23px;
+    left: -23px;
+    bottom: 0;
+    color: #b94047;
+}
+#point p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+#point h1{
+    color: #b94047;
+    font-size: 30px;
+    font-family: メイリオ;
+}
+
+#side_banner {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+footer #footer_navi ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #b94047;
+    text-align: center;
+}
+
+footer #footer_navi {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+}
+
+footer #footer_navi li {
+    display: inline;
+    border-left: solid 1px #333;
+    margin-left: 8px;
+    padding-left: 8px;
+    font-size: smaller;
+}
+
+footer #footer_navi li:last-child {
+    border-right: solid 1px #333;
+    padding: 0 8px;
+}
+
+footer small {
+    display: inline-block;
+    padding: 8px 0;
+    color: #fff;
+}
